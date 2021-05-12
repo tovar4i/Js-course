@@ -1,0 +1,87 @@
+.kino__row {
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.kino__row__item {
+    height: 100px;
+    background: #ccc;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s all linear;
+    font-size: 30px;
+}
+
+.kino__row__item:hover {
+    border-color: blue;
+    color: blue;
+}
+
+.modals {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    background: #ccc;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 0.2s all linear;
+}
+
+.modals2 {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    background: rgb(37, 126, 56);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 0 20px 10px rgba(238, 230, 118, 0.5);
+    opacity: 0;
+    transition: 0.2s all linear;
+}
+
+.modals1 {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    background: rgb(236, 202, 7);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 0 20px 10px rgba(116, 8, 8, 0.5);
+    opacity: 0;
+    transition: 0.2s all linear;
+}
+
+.busy {
+    background: red !important;
+}
+
+.busy-end {
+    background: red !important;
+}
